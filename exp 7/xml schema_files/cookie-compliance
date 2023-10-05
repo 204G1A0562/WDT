@@ -1,0 +1,1 @@
+$(document).ready(function(){var n="eu-cookie-warning",t="OK",r=$.cookie(n),i=$("#cookieWarning");r!=t&&setTimeout(function(){i.slideDown(200)},200);$("#cookieWarningClose").click(function(){i.slideUp();$.cookie(n,t,{expires:365,path:"/"})})})
